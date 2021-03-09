@@ -15,7 +15,7 @@
         android:columnCount="4"
         android:paddingLeft="75dp"
         android:paddingTop="20dp"
-        android:rowCount="12"
+        android:rowCount="14"
         tools:context=".BetsTable">
 
         <ImageButton
