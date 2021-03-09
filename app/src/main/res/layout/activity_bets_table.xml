@@ -9,16 +9,16 @@
     <GridLayout
         android:id="@+id/favorites_grid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:background="@drawable/backgroundgrpng"
         android:columnCount="4"
-        android:rowCount="10"
+        android:rowCount="16"
         tools:context=".BetsTable">
 
         <ImageButton
             android:id="@+id/btnZero"
-            android:layout_width="95dp"
-            android:layout_height="35dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
             android:layout_row="0"
             android:layout_column="1"
             android:background="@drawable/zero"
@@ -28,7 +28,7 @@
             android:id="@+id/btn_1_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="1"
             android:layout_column="0"
             android:background="@drawable/bet1"
             android:tag="1 RED" />
@@ -38,7 +38,7 @@
             android:id="@+id/btn_2_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="1"
             android:layout_column="1"
             android:background="@drawable/bet2"
             android:tag="2 BLACK" />
@@ -47,8 +47,8 @@
             android:id="@+id/btn_3_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_column="2"
             android:background="@drawable/bet3"
             android:tag="3 RED" />
 
@@ -56,8 +56,8 @@
             android:id="@+id/btn_9_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="3"
+            android:layout_column="2"
             android:background="@drawable/bet9"
             android:tag="9 RED" />
 
@@ -65,8 +65,8 @@
             android:id="@+id/btn_12_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_column="2"
             android:background="@drawable/bet12"
             android:tag="12 RED" />
 
@@ -74,8 +74,8 @@
             android:id="@+id/btn_15_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="5"
+            android:layout_column="2"
             android:background="@drawable/bet15"
             android:tag="15 BLACK" />
 
@@ -84,8 +84,8 @@
             android:id="@+id/btn_18_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="6"
+            android:layout_column="2"
             android:background="@drawable/bet18"
             android:tag="18 RED" />
 
@@ -93,8 +93,8 @@
             android:id="@+id/btn_21_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_column="2"
             android:background="@drawable/bet21"
             android:tag="21 RED" />
 
@@ -102,8 +102,8 @@
             android:id="@+id/btn_24_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="8"
+            android:layout_column="2"
             android:background="@drawable/bet24"
             android:tag="24 BLACK" />
 
@@ -111,8 +111,8 @@
             android:id="@+id/btn_27_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="9"
+            android:layout_column="2"
             android:background="@drawable/bet27"
             android:tag="27 RED" />
 
@@ -121,8 +121,8 @@
             android:id="@+id/btn_30_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="10"
+            android:layout_column="2"
             android:background="@drawable/bet30"
             android:tag="30 RED"/>
 
@@ -130,8 +130,8 @@
             android:id="@+id/btn_33_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="11"
+            android:layout_column="2"
             android:background="@drawable/bet33"
             android:tag="33 BLACK" />
 
@@ -139,8 +139,8 @@
             android:id="@+id/btn_36_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="12"
+            android:layout_column="2"
             android:background="@drawable/bet36"
             android:tag="36 BLACK"/>
 
@@ -148,8 +148,8 @@
             android:id="@+id/btn_6_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_column="2"
             android:background="@drawable/bet6"
             android:tag="6 BLACK"/>
 
@@ -157,8 +157,8 @@
             android:id="@+id/btn_4_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_column="0"
             android:background="@drawable/bet4"
             android:tag="4 BLACK" />
 
@@ -166,7 +166,7 @@
             android:id="@+id/btn_5_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="2"
             android:layout_column="1"
             android:background="@drawable/bet5"
             android:tag="5 RED" />
@@ -175,7 +175,7 @@
             android:id="@+id/btn_8_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="3"
             android:layout_column="1"
             android:background="@drawable/bet8"
             android:tag="8 BLACK" />
@@ -184,7 +184,7 @@
             android:id="@+id/btn_11_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="4"
             android:layout_column="1"
             android:background="@drawable/bet11"
             android:tag="11 BLACK" />
@@ -193,7 +193,7 @@
             android:id="@+id/btn_14_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="5"
             android:layout_column="1"
             android:background="@drawable/bet14"
             android:tag="14 RED" />
@@ -202,7 +202,7 @@
             android:id="@+id/btn_17_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="6"
             android:layout_column="1"
             android:background="@drawable/bet17"
             android:tag="17 BLACK" />
@@ -211,7 +211,7 @@
             android:id="@+id/btn_20_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="7"
             android:layout_column="1"
             android:background="@drawable/bet20"
             android:tag="20 BLACK" />
@@ -220,7 +220,7 @@
             android:id="@+id/btn_23_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="8"
             android:layout_column="1"
             android:background="@drawable/bet23"
             android:tag="23 RED" />
@@ -229,7 +229,7 @@
             android:id="@+id/btn_26_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="9"
             android:layout_column="1"
             android:background="@drawable/bet26"
             android:tag="26 BLACK"/>
@@ -238,7 +238,7 @@
             android:id="@+id/btn_29_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="10"
             android:layout_column="1"
             android:background="@drawable/bet29"
             android:tag="29 BLACK"/>
@@ -247,7 +247,7 @@
             android:id="@+id/btn_32_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="11"
             android:layout_column="1"
             android:background="@drawable/bet32"
             android:tag="32 RED" />
@@ -256,7 +256,7 @@
             android:id="@+id/btn_35_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
+            android:layout_row="12"
             android:layout_column="1"
             android:background="@drawable/bet35"
             android:tag="35 RED" />
@@ -265,8 +265,8 @@
             android:id="@+id/btn_7_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="3"
+            android:layout_column="0"
             android:background="@drawable/bet7"
             android:tag="7 RED" />
 
@@ -274,8 +274,8 @@
             android:id="@+id/btn_10_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_column="0"
             android:background="@drawable/bet10"
             android:tag="10 BLACK" />
 
@@ -283,8 +283,8 @@
             android:id="@+id/btn_13_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="5"
+            android:layout_column="0"
             android:background="@drawable/bet13"
             android:tag="13 BLACK" />
 
@@ -292,8 +292,8 @@
             android:id="@+id/btn_16_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="6"
+            android:layout_column="0"
             android:background="@drawable/bet16"
             android:tag="16 RED" />
 
@@ -301,8 +301,8 @@
             android:id="@+id/btn_19_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_column="0"
             android:background="@drawable/bet19"
             android:tag="19 RED"/>
 
@@ -310,8 +310,8 @@
             android:id="@+id/btn_22_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="8"
+            android:layout_column="0"
             android:background="@drawable/bet22"
             android:tag="22 BLACK" />
 
@@ -319,8 +319,8 @@
             android:id="@+id/btn_25_red"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="9"
+            android:layout_column="0"
             android:background="@drawable/bet25"
             android:tag="25 RED" />
 
@@ -328,8 +328,8 @@
             android:id="@+id/btn_28_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="10"
+            android:layout_column="0"
             android:background="@drawable/bet28"
             android:tag="28 BLACK"/>
 
@@ -337,8 +337,8 @@
             android:id="@+id/btn_31_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="11"
+            android:layout_column="0"
             android:background="@drawable/bet31"
             android:tag="31 BLACK" />
 
@@ -346,26 +346,26 @@
             android:id="@+id/btn_34_black"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="12"
+            android:layout_column="0"
             android:background="@drawable/bet34"
             android:tag="34 BLACK" />
 
         <ImageButton
             android:id="@+id/btnBlack"
-            android:layout_width="74dp"
-            android:layout_height="56dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="3"
             android:background="@drawable/betblack"
             android:tag="BLACK" />
 
         <ImageButton
             android:id="@+id/btnRed"
-            android:layout_width="68dp"
-            android:layout_height="58dp"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="3"
             android:background="@drawable/betred"
             android:tag="RED"/>
 
