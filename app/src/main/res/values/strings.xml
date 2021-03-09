@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Roulette</string>
+    <string name="btn_roll">Roll</string>
+    <string name="btn_menu_bets">Bets</string>
+    <string name="tv_bank"></string>
+    <string name="tv_bet"></string>
+</resources>
